@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",           // або ES2016, ESNext — не критично
+    "module": "commonjs",          // ← це найголовніше!
+    "esModuleInterop": true,       // ← дуже допомагає з express
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "outDir": "./dist",            // куди компілюється
+    "rootDir": "./src"             // або де в тебе .ts файли
+  }
+}
